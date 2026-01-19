@@ -214,7 +214,7 @@ private:
                 chipID != DRV2605_CHIP_ID &&
                 chipID != DRV2604L_CHIP_ID &&
                 chipID != DRV2605L_CHIP_ID &&
-                chipPD != DRV2605LU_CHIP_ID ) {
+                chipID != DRV2605LU_CHIP_ID ) {
             log_e("ChipID:0x%x should be 0x03 or 0x04 or 0x06 or 0x07\n", chipID);
             return false;
         }
