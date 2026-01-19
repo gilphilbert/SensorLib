@@ -1,3 +1,5 @@
+This fork of SensorLib supports the odd chip in the Waveshare 1.8" Touch Dial that returns a ChipID of 0x05
+
 
 <center><img src="extras/images/SensroLib.jpg" width="80%" height="30%"></center>
 
